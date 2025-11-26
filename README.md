@@ -12,4 +12,10 @@ TODO
 
 ## Dataset
 
-If you wish to compute your own steering vectors for emotion interpolation, the `dataset` folder includes the full set of 6,900 curated samples used in our paper. We are planing to scale it up in the future.
+If you wish to compute your own steering vectors for emotion interpolation, the `dataset` folder includes the full set of 6,900 curated samples used in our paper. We are planning to scale it up in the future.
+
+The data format is as follows, and each line is tab-separated:
+
+|column 1|column 2|column 3|column 4|column 5|
+|:-------|:-------|:-------|:-------|:-------|
+|dataset name|wav filename|emotion|transcription|text to synthesize (you can change them or ignore them as you need)|
